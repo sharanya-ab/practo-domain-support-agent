@@ -1,0 +1,35 @@
+
+# Python virtual environment and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local vector database and downloaded models
+.chroma/
+models/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Temporary installation downloads
+get-pip.py
+pip-*.whl
+pip-metadata.json
+pip-wheel-url.txt
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+artifacts/requests.jsonl
