@@ -1,0 +1,1 @@
+Patients can request an appointment through the Practo-style booking portal or the clinic reception desk. A booking is confirmed only after the clinic sends a confirmation message with the date, time, and clinician details. Patients should arrive 10 minutes before the scheduled slot with a valid booking reference.

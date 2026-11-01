@@ -1,0 +1,12 @@
+{
+  "before_repeat": {
+    "calls": 1,
+    "hits": 0
+  },
+  "after_repeat": {
+    "calls": 1,
+    "hits": 1
+  },
+  "same_answer": true,
+  "evidence": "calls remains 1 while hits increments to 1"
+}

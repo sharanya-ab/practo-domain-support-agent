@@ -1,0 +1,26 @@
+{
+  "approved_case": {
+    "verdict": {
+      "approved": true,
+      "final_answer": "Patients should cancel or reschedule at least 6 hours before the appointment.",
+      "reason": "Draft has high lexical overlap with retrieved context."
+    },
+    "messages": [
+      "Draft: Patients should cancel or reschedule at least 6 hours before the appointment.\n\nRetrieved context: Patients should cancel or reschedule at least 6 hours before the appointment start time.",
+      "I checked the draft against the policy context. Please ensure every claim is supported.",
+      "{\"approved\":true,\"final_answer\":\"Patients should cancel or reschedule at least 6 hours before the appointment.\",\"reason\":\"Draft has high lexical overlap with retrieved context.\"}"
+    ]
+  },
+  "revision_case": {
+    "verdict": {
+      "approved": false,
+      "final_answer": "Please contact the clinic to confirm the specific policy.",
+      "reason": "Unsupported claim detected: full refund"
+    },
+    "messages": [
+      "Draft: Patients may cancel any time and always receive a full refund.\n\nRetrieved context: Patients should cancel or reschedule at least 6 hours before the appointment start time.",
+      "I checked the draft against the policy context. Please ensure every claim is supported.",
+      "{\"approved\":false,\"final_answer\":\"Please contact the clinic to confirm the specific policy.\",\"reason\":\"Unsupported claim detected: full refund\"}"
+    ]
+  }
+}

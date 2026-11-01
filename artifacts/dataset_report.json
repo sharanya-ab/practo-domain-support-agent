@@ -1,0 +1,37 @@
+{
+  "records": 50,
+  "category_counts": {
+    "General Medicine": 18,
+    "Cardiology": 6,
+    "Dermatology": 11,
+    "Pediatrics": 9,
+    "Orthopedics": 6
+  },
+  "status_counts": {
+    "Scheduled": 17,
+    "Completed": 15,
+    "Cancelled": 4,
+    "No-Show": 4,
+    "Rescheduled": 10
+  },
+  "follow_up_true_percent": 24.0,
+  "seed": 42,
+  "category_weights": {
+    "General Medicine": 0.3,
+    "Cardiology": 0.18,
+    "Dermatology": 0.18,
+    "Pediatrics": 0.17,
+    "Orthopedics": 0.17
+  },
+  "status_weights": {
+    "Scheduled": 0.35,
+    "Completed": 0.3,
+    "Cancelled": 0.12,
+    "No-Show": 0.08,
+    "Rescheduled": 0.15
+  },
+  "fee_range_inr": [
+    400,
+    1800
+  ]
+}

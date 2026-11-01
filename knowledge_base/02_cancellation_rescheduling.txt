@@ -1,0 +1,1 @@
+Patients should cancel or reschedule at least 6 hours before the appointment start time. Requests made inside the 6-hour window are subject to clinic approval and slot availability. A missed appointment is recorded as No-Show and is not automatically converted into a cancellation.

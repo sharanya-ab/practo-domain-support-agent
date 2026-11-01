@@ -1,0 +1,1 @@
+Patients should request an itemised invoice and payment receipt from the clinic after the consultation. They should submit those documents, the insurer's claim form, and any required supporting records directly to their insurer. Claim approval, exclusions, and reimbursement timelines are determined by the insurer rather than the booking platform.

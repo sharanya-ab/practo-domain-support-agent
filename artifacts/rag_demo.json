@@ -1,0 +1,92 @@
+{
+  "How do I book an appointment?": {
+    "answer": "Patients can request an appointment through the Practo-style booking portal or the clinic reception desk. A booking is confirmed only after the clinic sends a confirmation message with the date, time, and clinician details. Patients should arrive 10 minutes before the scheduled slot with a valid booking reference.",
+    "grounded": true,
+    "retrieved": [
+      {
+        "text": "Patients can request an appointment through the Practo-style booking portal or the clinic reception desk. A booking is confirmed only after the clinic sends a confirmation message with the date, time, and clinician details. Patients should arrive 10 minutes before the scheduled slot with a valid booking reference.",
+        "document_id": "01_appointment_booking",
+        "distance": 0.339089035987854,
+        "similarity": 0.660910964012146
+      }
+    ]
+  },
+  "What is the cancellation window?": {
+    "answer": "Patients should cancel or reschedule at least 6 hours before the appointment start time. Requests made inside the 6-hour window are subject to clinic approval and slot availability. A missed appointment is recorded as No-Show and is not automatically converted into a cancellation.",
+    "grounded": true,
+    "retrieved": [
+      {
+        "text": "Patients should cancel or reschedule at least 6 hours before the appointment start time. Requests made inside the 6-hour window are subject to clinic approval and slot availability. A missed appointment is recorded as No-Show and is not automatically converted into a cancellation.",
+        "document_id": "02_cancellation_rescheduling",
+        "distance": 0.615713357925415,
+        "similarity": 0.38428664207458496
+      }
+    ]
+  },
+  "What are the consultation fees for Cardiology?": {
+    "answer": "Consultation fees depend on specialty and are displayed before a booking is confirmed. In this demonstration policy, General Medicine consultations are \u20b9400\u2013\u20b9700, Pediatrics \u20b9500\u2013\u20b9900, Dermatology \u20b9600\u2013\u20b91,200, Orthopedics \u20b9800\u2013\u20b91,600, and Cardiology \u20b9900\u2013\u20b91,800. The appointment record is the source of truth for the fee attached to an individual synthetic booking.",
+    "grounded": true,
+    "retrieved": [
+      {
+        "text": "Consultation fees depend on specialty and are displayed before a booking is confirmed. In this demonstration policy, General Medicine consultations are \u20b9400\u2013\u20b9700, Pediatrics \u20b9500\u2013\u20b9900, Dermatology \u20b9600\u2013\u20b91,200, Orthopedics \u20b9800\u2013\u20b91,600, and Cardiology \u20b9900\u2013\u20b91,800. The appointment record is the source of truth for the fee attached to an individual synthetic booking.",
+        "document_id": "03_consultation_fees",
+        "distance": 0.2477048635482788,
+        "similarity": 0.7522951364517212
+      }
+    ]
+  },
+  "How do insurance claims work?": {
+    "answer": "Patients should request an itemised invoice and payment receipt from the clinic after the consultation. They should submit those documents, the insurer's claim form, and any required supporting records directly to their insurer. Claim approval, exclusions, and reimbursement timelines are determined by the insurer rather than the booking platform.",
+    "grounded": true,
+    "retrieved": [
+      {
+        "text": "Patients should request an itemised invoice and payment receipt from the clinic after the consultation. They should submit those documents, the insurer's claim form, and any required supporting records directly to their insurer. Claim approval, exclusions, and reimbursement timelines are determined by the insurer rather than the booking platform.",
+        "document_id": "04_insurance_claims",
+        "distance": 0.5046335458755493,
+        "similarity": 0.4953664541244507
+      }
+    ]
+  },
+  "How long do lab tests take?": {
+    "answer": "Routine blood-test reports are generally available within 24\u201348 hours after the laboratory receives the sample. Specialised tests may take 3\u20137 working days, depending on the test and laboratory. The report status shown by the laboratory is authoritative; urgent or worsening symptoms should not wait for a report.",
+    "grounded": true,
+    "retrieved": [
+      {
+        "text": "Routine blood-test reports are generally available within 24\u201348 hours after the laboratory receives the sample. Specialised tests may take 3\u20137 working days, depending on the test and laboratory. The report status shown by the laboratory is authoritative; urgent or worsening symptoms should not wait for a report.",
+        "document_id": "06_lab_turnaround",
+        "distance": 0.3486369252204895,
+        "similarity": 0.6513630747795105
+      }
+    ]
+  },
+  "Can I ask who won the cricket world cup?": {
+    "answer": "I don't know based on the available clinic policy documents.",
+    "grounded": false,
+    "retrieved": [
+      {
+        "text": "Patients should request an itemised invoice and payment receipt from the clinic after the consultation. They should submit those documents, the insurer's claim form, and any required supporting records directly to their insurer. Claim approval, exclusions, and reimbursement timelines are determined by the insurer rather than the booking platform.",
+        "document_id": "04_insurance_claims",
+        "distance": 0.8853305578231812,
+        "similarity": 0.11466944217681885
+      },
+      {
+        "text": "Patient information should be accessed only for a legitimate support purpose and only by authorised personnel. Support responses should avoid exposing unnecessary personal or clinical details and should never request passwords or one-time passcodes. Patients can contact the clinic's privacy officer to raise a data-access or correction request.",
+        "document_id": "09_patient_privacy",
+        "distance": 0.9007517099380493,
+        "similarity": 0.09924829006195068
+      },
+      {
+        "text": "Patients may request a second opinion by booking another qualified clinician and sharing relevant reports or records with that clinician. The second clinician provides an independent assessment and may recommend further examination. The support team can explain booking steps but cannot compare diagnoses or decide which clinician's medical opinion is correct.",
+        "document_id": "11_second_opinion",
+        "distance": 0.9305009841918945,
+        "similarity": 0.06949901580810547
+      },
+      {
+        "text": "Patients can request an appointment through the Practo-style booking portal or the clinic reception desk. A booking is confirmed only after the clinic sends a confirmation message with the date, time, and clinician details. Patients should arrive 10 minutes before the scheduled slot with a valid booking reference.",
+        "document_id": "01_appointment_booking",
+        "distance": 0.9433712363243103,
+        "similarity": 0.0566287636756897
+      }
+    ]
+  }
+}

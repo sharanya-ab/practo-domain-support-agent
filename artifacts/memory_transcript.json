@@ -1,0 +1,11 @@
+{
+  "session_A": [
+    "I will use that reference in this conversation.",
+    "Your reference is APT-0007"
+  ],
+  "fresh_session_B": [
+    "Your reference is not present in this conversation."
+  ],
+  "history_A_messages": 4,
+  "history_B_messages": 2
+}

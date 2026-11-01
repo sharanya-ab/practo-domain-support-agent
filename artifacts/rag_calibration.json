@@ -1,0 +1,16 @@
+{
+  "in_scope": {
+    "How far in advance should I cancel or reschedule an appointment?": 0.7934120893478394,
+    "What are the consultation fees for Cardiology?": 0.7522951364517212,
+    "How do I submit an insurance claim?": 0.5318877100944519,
+    "How long do routine laboratory results take?": 0.7029259204864502,
+    "Can I request a second opinion?": 0.60690838098526
+  },
+  "out_of_scope": {
+    "Who won the cricket world cup and what was the final score?": 0.08421701192855835,
+    "Write a Python program to sort a list of integers.": 0.027913987636566162
+  },
+  "min_in_scope": 0.5318877100944519,
+  "max_out_of_scope": 0.08421701192855835,
+  "chosen_threshold": 0.3080523610115051
+}

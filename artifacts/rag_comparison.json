@@ -1,0 +1,254 @@
+{
+  "fixed_overlap": {
+    "How do I book an appointment?": {
+      "retrieved_documents": [
+        "01_appointment_booking",
+        "04_insurance_claims",
+        "03_consultation_fees",
+        "02_cancellation_rescheduling",
+        "10_followup_discount"
+      ],
+      "relevant_documents": [
+        "01_appointment_booking"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What is the cancellation and rescheduling window?": {
+      "retrieved_documents": [
+        "02_cancellation_rescheduling",
+        "01_appointment_booking",
+        "10_followup_discount",
+        "03_consultation_fees",
+        "11_second_opinion"
+      ],
+      "relevant_documents": [
+        "02_cancellation_rescheduling"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What are consultation fees for Cardiology?": {
+      "retrieved_documents": [
+        "03_consultation_fees",
+        "10_followup_discount",
+        "04_insurance_claims",
+        "11_second_opinion",
+        "01_appointment_booking"
+      ],
+      "relevant_documents": [
+        "03_consultation_fees"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "How do I make an insurance claim?": {
+      "retrieved_documents": [
+        "04_insurance_claims",
+        "08_emergency_protocol",
+        "11_second_opinion",
+        "03_consultation_fees",
+        "12_home_visit"
+      ],
+      "relevant_documents": [
+        "04_insurance_claims"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What is the prescription refill policy?": {
+      "retrieved_documents": [
+        "05_prescription_refills",
+        "09_patient_privacy",
+        "03_consultation_fees",
+        "10_followup_discount",
+        "04_insurance_claims"
+      ],
+      "relevant_documents": [
+        "05_prescription_refills"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "How long do routine lab tests take?": {
+      "retrieved_documents": [
+        "06_lab_turnaround",
+        "02_cancellation_rescheduling",
+        "10_followup_discount",
+        "01_appointment_booking",
+        "03_consultation_fees"
+      ],
+      "relevant_documents": [
+        "06_lab_turnaround"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "Who is eligible for telemedicine?": {
+      "retrieved_documents": [
+        "07_telemedicine_eligibility",
+        "09_patient_privacy",
+        "04_insurance_claims",
+        "12_home_visit",
+        "03_consultation_fees"
+      ],
+      "relevant_documents": [
+        "07_telemedicine_eligibility"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What should I do in an emergency?": {
+      "retrieved_documents": [
+        "08_emergency_protocol",
+        "12_home_visit",
+        "07_telemedicine_eligibility",
+        "04_insurance_claims",
+        "02_cancellation_rescheduling"
+      ],
+      "relevant_documents": [
+        "08_emergency_protocol"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "average": {
+      "precision": 0.19999999999999998,
+      "recall": 1.0
+    }
+  },
+  "sentence": {
+    "How do I book an appointment?": {
+      "retrieved_documents": [
+        "01_appointment_booking",
+        "04_insurance_claims",
+        "03_consultation_fees",
+        "02_cancellation_rescheduling",
+        "10_followup_discount"
+      ],
+      "relevant_documents": [
+        "01_appointment_booking"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What is the cancellation and rescheduling window?": {
+      "retrieved_documents": [
+        "02_cancellation_rescheduling",
+        "01_appointment_booking",
+        "10_followup_discount",
+        "03_consultation_fees",
+        "11_second_opinion"
+      ],
+      "relevant_documents": [
+        "02_cancellation_rescheduling"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What are consultation fees for Cardiology?": {
+      "retrieved_documents": [
+        "03_consultation_fees",
+        "10_followup_discount",
+        "04_insurance_claims",
+        "11_second_opinion",
+        "01_appointment_booking"
+      ],
+      "relevant_documents": [
+        "03_consultation_fees"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "How do I make an insurance claim?": {
+      "retrieved_documents": [
+        "04_insurance_claims",
+        "08_emergency_protocol",
+        "11_second_opinion",
+        "03_consultation_fees",
+        "12_home_visit"
+      ],
+      "relevant_documents": [
+        "04_insurance_claims"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What is the prescription refill policy?": {
+      "retrieved_documents": [
+        "05_prescription_refills",
+        "09_patient_privacy",
+        "03_consultation_fees",
+        "10_followup_discount",
+        "04_insurance_claims"
+      ],
+      "relevant_documents": [
+        "05_prescription_refills"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "How long do routine lab tests take?": {
+      "retrieved_documents": [
+        "06_lab_turnaround",
+        "02_cancellation_rescheduling",
+        "10_followup_discount",
+        "01_appointment_booking",
+        "03_consultation_fees"
+      ],
+      "relevant_documents": [
+        "06_lab_turnaround"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "Who is eligible for telemedicine?": {
+      "retrieved_documents": [
+        "07_telemedicine_eligibility",
+        "09_patient_privacy",
+        "04_insurance_claims",
+        "12_home_visit",
+        "03_consultation_fees"
+      ],
+      "relevant_documents": [
+        "07_telemedicine_eligibility"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "What should I do in an emergency?": {
+      "retrieved_documents": [
+        "08_emergency_protocol",
+        "12_home_visit",
+        "07_telemedicine_eligibility",
+        "04_insurance_claims",
+        "02_cancellation_rescheduling"
+      ],
+      "relevant_documents": [
+        "08_emergency_protocol"
+      ],
+      "arithmetic": "precision=1/5; recall=1/1",
+      "precision": 0.2,
+      "recall": 1.0
+    },
+    "average": {
+      "precision": 0.19999999999999998,
+      "recall": 1.0
+    }
+  }
+}

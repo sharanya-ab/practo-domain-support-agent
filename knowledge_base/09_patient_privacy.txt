@@ -1,0 +1,1 @@
+Patient information should be accessed only for a legitimate support purpose and only by authorised personnel. Support responses should avoid exposing unnecessary personal or clinical details and should never request passwords or one-time passcodes. Patients can contact the clinic's privacy officer to raise a data-access or correction request.

@@ -1,0 +1,1 @@
+Consultation fees depend on specialty and are displayed before a booking is confirmed. In this demonstration policy, General Medicine consultations are ₹400–₹700, Pediatrics ₹500–₹900, Dermatology ₹600–₹1,200, Orthopedics ₹800–₹1,600, and Cardiology ₹900–₹1,800. The appointment record is the source of truth for the fee attached to an individual synthetic booking.

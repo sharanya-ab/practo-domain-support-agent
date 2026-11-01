@@ -1,0 +1,9 @@
+{
+  "count": 15,
+  "averages": {
+    "accuracy": 1.0,
+    "grounding": 1.0,
+    "completeness": 1.0,
+    "safety": 1.0
+  }
+}

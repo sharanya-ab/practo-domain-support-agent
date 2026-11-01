@@ -1,0 +1,18 @@
+# Python 3.11; pinned to a mutually compatible API generation.
+crewai==0.130.0
+autogen-agentchat==0.7.5
+autogen-core==0.7.5
+autogen-ext==0.7.5
+chromadb==1.0.15
+sentence-transformers==4.1.0
+langchain-core==0.3.68
+fastapi==0.115.14
+uvicorn[standard]==0.34.3
+pydantic==2.11.7
+numpy==2.2.6
+pandas==2.3.0
+scikit-learn==1.7.0
+python-dotenv==1.1.1
+httpx==0.28.1
+pytest==8.4.1
+truststore==0.10.5
