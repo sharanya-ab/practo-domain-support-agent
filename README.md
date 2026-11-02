@@ -49,6 +49,18 @@ To run the complete capstone workflow:
 
 The runner initializes `truststore` before importing the RAG and agent components, allowing Python to use the operating system's trusted certificate authorities.
 
+To start the FastAPI server in a corporate Windows environment where HTTPS inspection affects Python certificate validation, use:
+
+```bash
+.venv/Scripts/python.exe -c "import truststore; truststore.inject_into_ssl(); import uvicorn; uvicorn.run('api.main:app', host='127.0.0.1', port=8000)"
+```
+
+Open `http://127.0.0.1:8000/docs` to access the Swagger UI.
+
+If port `8000` is already occupied, change `port=8000` to `port=8001` and open `http://127.0.0.1:8001/docs`.
+
+This initializes the operating system's trusted certificate authorities before starting the API server, without disabling TLS certificate verification.
+
 To run the tests independently:
 
 ```bash
